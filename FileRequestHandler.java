@@ -7,8 +7,8 @@ import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.nio.file.attribute.FileTime;
-import java.nio.file.LinkOption;
-
+import javax.activation.MimeType;
+import javax.activation.MimetypesFileTypeMap;
 
 /**
  * Request handler for HTTP/1.1 GET requests.
@@ -35,12 +35,13 @@ public class FileRequestHandler {
      */
     public void handle(String request, OutputStream response)
     throws IOException {
-        // response.write("Method handle not implemented.".getBytes());
-        // response.write(NEW_LINE.getBytes());
 
+        // get path of the data
         Path path = Paths.get(request.split(" ")[1]);
-
+        // get the three arguments
         String[] parts = request.split("\\ ");
+
+        // start testing
         if (parts.length != 3) {
             response.write("HTTP/1.1 400 Bad Request".getBytes());
             response.write(NEW_LINE.getBytes());
@@ -57,6 +58,7 @@ public class FileRequestHandler {
             response.write("HTTP/1.1 404 Not Found".getBytes());
             response.write(NEW_LINE.getBytes());
         }
+        // cool, everything works!
         else {
             response.write("HTTP/1.1 200 OK".getBytes());
             response.write(NEW_LINE.getBytes());
@@ -67,11 +69,24 @@ public class FileRequestHandler {
             response.write(date_now.format(new Date()).getBytes());
             response.write(NEW_LINE.getBytes());
 
+            // content type
+            response.write("Content-Type: ".getBytes());
+            MimetypesFileTypeMap mimeTypesMap = new MimetypesFileTypeMap();
+            String fileType = mimeTypesMap.getContentType(parts[1]);
+            response.write(fileType.getBytes());
+            response.write(NEW_LINE.getBytes());
+
+            // content length
+            // response.write("Content-Length: ".getBytes());
+            // converting in long but not in bytes ---> Files.size(path)
+            // response.write(NEW_LINE.getBytes());
+
             // date of last modifing
             DateFormat last_mod = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
             FileTime fileTime = Files.getLastModifiedTime(path);
             response.write("Last-Modified: ".getBytes());
             response.write(last_mod.format(fileTime.toMillis()).getBytes());
+            response.write(NEW_LINE.getBytes());
             response.write(NEW_LINE.getBytes());
         }
 
