@@ -38,7 +38,7 @@ public class FileRequestHandler {
         // response.write("Method handle not implemented.".getBytes());
         // response.write(NEW_LINE.getBytes());
 
-        Path path_1 = Paths.get(request.split(" ")[1]);
+        Path path = Paths.get(request.split(" ")[1]);
 
         String[] parts = request.split("\\ ");
         if (parts.length != 3) {
@@ -53,7 +53,7 @@ public class FileRequestHandler {
             response.write("HTTP/1.1 505 HTTP Version Not Supported".getBytes());
             response.write(NEW_LINE.getBytes());
         }
-        else if (!Files.exists(path_1)){
+        else if (!Files.exists(path)){
             response.write("HTTP/1.1 404 Not Found".getBytes());
             response.write(NEW_LINE.getBytes());
         }
@@ -61,15 +61,17 @@ public class FileRequestHandler {
             response.write("HTTP/1.1 200 OK".getBytes());
             response.write(NEW_LINE.getBytes());
 
-            DateFormat dateFormat_1 = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
+            // date now
+            DateFormat date_now = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
             response.write("Date: ".getBytes());
-            response.write(dateFormat_1.format(new Date()).getBytes());
+            response.write(date_now.format(new Date()).getBytes());
             response.write(NEW_LINE.getBytes());
 
-            DateFormat dateFormat_2 = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
-            FileTime fileTime = Files.getLastModifiedTime(path_1);
+            // date of last modifing
+            DateFormat last_mod = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
+            FileTime fileTime = Files.getLastModifiedTime(path);
             response.write("Last-Modified: ".getBytes());
-            response.write(dateFormat_1.format(fileTime.toMillis()).getBytes());
+            response.write(last_mod.format(fileTime.toMillis()).getBytes());
             response.write(NEW_LINE.getBytes());
         }
 
