@@ -77,9 +77,12 @@ public class FileRequestHandler {
             response.write(NEW_LINE.getBytes());
 
             // content length
-            // response.write("Content-Length: ".getBytes());
-            // converting in long but not in bytes ---> Files.size(path)
-            // response.write(NEW_LINE.getBytes());
+            response.write("Content-Length: ".getBytes());
+            // converting in long but not in bytes --->
+            long l = Files.size(path);
+            String s = String.valueOf( l );
+            response.write(s.getBytes());
+            response.write(NEW_LINE.getBytes());
 
             // date of last modifing
             DateFormat last_mod = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
