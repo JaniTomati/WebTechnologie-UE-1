@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
@@ -78,10 +79,9 @@ public class FileRequestHandler {
 
             // content length
             response.write("Content-Length: ".getBytes());
-            // converting in long but not in bytes --->
-            long l = Files.size(path);
-            String s = String.valueOf( l );
-            response.write(s.getBytes());
+            long fileLength = Files.size(path);
+            String fileSize = String.valueOf(fileLength);
+            response.write(fileSize.getBytes());
             response.write(NEW_LINE.getBytes());
 
             // date of last modifing
@@ -91,9 +91,29 @@ public class FileRequestHandler {
             response.write(last_mod.format(fileTime.toMillis()).getBytes());
             response.write(NEW_LINE.getBytes());
             response.write(NEW_LINE.getBytes());
-        }
 
+            // lists the content of the folder, if it's a folder
+            if (fileType == "application/octet-stream") {
+                File folder = path.toFile();
+                String[] folderContent = folder.list();
+                for (int i = 0; i < folderContent.length; i++) {
+                    response.write(folderContent[i].getBytes());
+                    response.write(NEW_LINE.getBytes());
+                }
+            }
+            // lists the content of the file, if it's not a folder
+            else {
+                File dataFile = path.toFile();
+                if (dataFile.canRead()) {
+                    response.write(Files.readAllBytes(path));
+                }
+            }
+        }
+        response.write(NEW_LINE.getBytes());
+
+        // GET ./www-root/ HTTP/1.1
         // GET ./www-root/humans.txt HTTP/1.1
+        // GET ./www-root/index.html HTTP/1.1
 
         /*
          * (a) Determine status code of the request and write proper status
