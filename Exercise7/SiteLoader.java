@@ -27,26 +27,25 @@ public class SiteLoader{
             content.append(curline + '\n');
         }
 
-
-
         br.close();
         connection.disconnect();
 
         return content.toString();
     }
 
+
     public static void main(String[] args){
 
         System.out.println("Type in your netspeak request: (e.g. waiting for ? response) ");
 
         Scanner input = new Scanner(System.in);
-        String answer = input.nextLine();        
-        
+        String answer = input.nextLine().toLowerCase();  // we can only get output for lowercase requests
         
         try{   
 
             String req = URLEncoder.encode(answer, "UTF-8");
             String content = SiteLoader.load("http://api.netspeak.org/netspeak3/search?query="+req);
+
             System.out.println(content);
 
         }catch(MalformedURLException e) { 
