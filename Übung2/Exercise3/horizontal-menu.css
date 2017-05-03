@@ -1,0 +1,23 @@
+ul a:link, a:visited {
+	background-color: purple;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul a:hover, a:active {
+    background-color: red;
+}
+
+ul{
+	width: 1000px;
+	height: 40px;
+}
+
+ul li{
+	list-style: none; 
+	float: left;
+	margin: 3px 3px 3px 3px;
+}
