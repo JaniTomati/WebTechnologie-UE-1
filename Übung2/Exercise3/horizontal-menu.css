@@ -21,3 +21,7 @@ ul li{
 	float: left;
 	margin: 3px 3px 3px 3px;
 }
+
+p {
+	width: 450px;
+}
