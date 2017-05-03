@@ -1,0 +1,5 @@
+p:first-child { color:blue; }
+
+p:first-child em {color: red;}
+
+p em:first-child {color: green;}
