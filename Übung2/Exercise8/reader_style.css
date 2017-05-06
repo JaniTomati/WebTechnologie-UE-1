@@ -1,0 +1,92 @@
+/* Feed Reader CSS: Jula, Christopher, Josef, Jana */
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato|Roboto+Mono');
+
+body {
+  padding: 4% 40% 0% 12%;
+  font-family: 'Lato', sans-serif;
+  color: #343434;
+}
+
+header {
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+}
+
+header > h1 {
+  margin-left: 80px;
+  margin-top: -67px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+article {
+  padding: 1px 10px 1px 10px;
+  margin-bottom: 25px;
+  background-color: #f4d5c4;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: #f18142;
+  line-height: 1.5;
+}
+
+main > section {
+  padding: 4px 15px 8px 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  text-align: justify;
+  background-color: #f9f9f9;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: #e5e5e5;
+}
+
+section > h2 {
+  letter-spacing: 0.03em;
+}
+
+section > p {
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1.5;
+}
+
+p.data {
+  margin-left: 5px;
+  font-family: 'Robot Mono', monospace;
+  color: #5d5d5d;
+  line-height: 1;
+}
+
+footer {
+  padding: 1px 10px 1px 10px;
+  margin-top: 25px;
+  background-color: #f4d5c4;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: #f18142;
+  font-size: 13px;
+}
+
+a:link {
+  color: #055583;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #15653d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+a:active {
+  text-transform: full-width;
+}
+
+img {
+  width: auto;
+  height: 10%;
+}
