@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<abbildung
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com graph.xsd">
+	<nummer>1</nummer>
+	<bild quelle = "bild.png" ausrichtung = "links"/>
+	<beschriftung>Abbildung 1:</beschriftung>
+</abbildung>
+

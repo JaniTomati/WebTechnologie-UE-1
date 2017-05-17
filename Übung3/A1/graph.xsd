@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+  <xs:element name="abbildung">
+   <xs:complexType>
+    <xs:sequence>
+
+      <xs:element name="nummer" type="xs:integer"/>
+
+      <xs:element name="bild">
+        <xs:complexType>
+          <xs:attribute name="quelle" type="xs:string" use="required"/>
+          <xs:attribute name="ausrichtung" default="links">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="links"/>
+                <xs:enumeration value="mittig"/>
+                <xs:enumeration value="rechts"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:complexType>  
+      </xs:element>
+      
+      <xs:element name="beschriftung" minOccurs="1" maxOccurs="1"/>
+
+    </xs:sequence>
+   </xs:complexType>
+  </xs:element>
+</xs:schema>
