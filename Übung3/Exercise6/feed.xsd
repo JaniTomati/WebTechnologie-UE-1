@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Web-Technologie 2017 - Jula (115167), Jana (115753), Christopher (114602), Josef (115850) -->
+
+  <!-- Simple elements -->
+  <xs:element name="id"       type="xs:string"/>
+  <xs:element name="title"    type="xs:string"/>
+  <xs:element name="updated"  type="xs:string"/>
+  <xs:element name="subtitle" type="xs:string"/>
+  <xs:element name="summary"  type="xs:string"/>
+
+  <!-- Complex elements -->
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="link">
+    <xs:complexType>
+      <xs:attribute name="href" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="entry">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="updated"/>
+        <xs:element ref="author"/>
+        <xs:element ref="link"/>
+        <xs:element ref="summary"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="feed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="title"/>
+        <xs:element ref="updated"/>
+        <xs:element ref="author"/>
+        <xs:element ref="subtitle" minOccurs="0"/>
+        <xs:element ref="entry" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

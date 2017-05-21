@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entry>
+    <id>f2b46170</id>
+    <title>A Complete Guide to Flexbox</title>
+    <updated>2016-12-27T17:49:31Z</updated>
+    <author>
+        <name>Chris Coyier</name>
+    </author>
+    <link href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"/>
+    <summary>Das Flexbox Layoutmodul (zur Zeit W3C Last Call Working Draft) hat das Ziel einen effizienteren Weg für das Anordnen, Ausrichten und Verteilen von Platz einzelner Elemente in einem Container zur Verfügung zu stellen, auch wenn die Größe der Elemente unbekannt und/oder dynamisch ist (daher das Wort „flex“).</summary>
+</entry>
