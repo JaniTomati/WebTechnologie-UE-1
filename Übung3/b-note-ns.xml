@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<a:note xmlns:a="http://www.uni-weimar.de/note"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.uni-weimar.de/note note-qua.xsd">
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Do not forget me this weekend!</body>
+</a:note>
