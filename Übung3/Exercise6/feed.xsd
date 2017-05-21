@@ -26,13 +26,13 @@
 
   <xs:element name="entry">
     <xs:complexType>
-      <xs:sequence minOccurs="0">
+      <xs:sequence>
         <xs:element ref="id"/>
         <xs:element ref="title"/>
         <xs:element ref="updated"/>
         <xs:element ref="author"/>
-        <xs:element ref="link"/>
-        <xs:element ref="summary"/>
+        <xs:element ref="link"    minOccurs="0"/>
+        <xs:element ref="summary" minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
