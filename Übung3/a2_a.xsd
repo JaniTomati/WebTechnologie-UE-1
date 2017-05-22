@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Definition des Namensraums -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Typdefinition Author -->
+  <xs:complexType name="authorType">
+    <xs:sequence>
+      <xs:element name="name"       type="xs:string"  minOccurs="1"     maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="authorID"   type="xs:ID"      use="required"/>
+  </xs:complexType>
+
+  <!-- Typdefinition Buch -->
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="title"      type="xs:string"  minOccurs="1"     maxOccurs="1"/>
+      <xs:element name="writtenBy"  type="xs:IDREF"   minOccurs="1"     maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="bookID"     type="xs:ID"      use="required"/>
+  </xs:complexType>
+
+  <!-- Datenbank -->
+  <xs:element name="database">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="author" type="authorType" minOccurs="1"   maxOccurs="unbounded"/>
+        <xs:element name="book"   type="bookType"   minOccurs="1"   maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
