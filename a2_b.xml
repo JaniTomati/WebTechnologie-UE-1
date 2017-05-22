@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<database>
+
+    <!-- Autoren -->
+    <author authorID="PK">
+        <name>Peter Komisch</name>
+    </author>
+    <author authorID="JG">
+        <name>John Goodman</name>
+    </author>
+    <author authorID="BT">
+        <name>Beaterie</name>
+    </author>
+
+    <!-- Werke -->
+    <book bookID="_01">
+        <title>Dinge des Lebens</title>
+        <writtenBy>PK</writtenBy>
+        <writtenBy>JG</writtenBy>
+    </book>
+    <book bookID="_02">
+        <title>Musik des Meisters</title>
+        <writtenBy>BT</writtenBy>
+    </book>
+
+</database>
