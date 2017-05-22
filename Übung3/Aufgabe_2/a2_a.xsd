@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Jana Puschmann, Josef Roth, Christopher Marx, Jula McGibbon
+Matrikelnummern: 115753, 115850, 114602, 115167 -->
 
 <!-- Definition des Namensraums -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
