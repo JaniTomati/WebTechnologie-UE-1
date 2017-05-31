@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<hotel>
+  <etage nummer="1">
+    <putzraum>1</putzraum>
+    <gaestezimmer nummer="1">
+      <fernseher>True</fernseher>
+      <gastname>"Schmidt"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="2">
+      <fernseher>True</fernseher>
+      <gastname>"Bauer"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="3">
+      <fernseher>False</fernseher>
+      <gastname>"Jürgens"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="4">
+      <fernseher>False</fernseher>
+      <gastname>"Reiner"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="5">
+      <fernseher>False</fernseher>
+      <gastname>"Norman"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="6">
+      <fernseher>True</fernseher>
+      <gastname>"Jensen"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="7">
+      <fernseher>True</fernseher>
+      <gastname>"Baker"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="8">
+      <fernseher>False</fernseher>
+      <gastname>"Foley"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="9">
+      <fernseher>True</fernseher>
+      <gastname>"Hoffstetter"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="10">
+      <fernseher>False</fernseher>
+      <gastname>"Cooper"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="11">
+      <fernseher>False</fernseher>
+      <gastname>"Roth"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="12">
+      <fernseher>True</fernseher>
+      <gastname>"Puschmann"</gastname>
+    </gaestezimmer>
+  </etage>
+   <etage nummer="2">
+    <putzraum>1</putzraum>
+    <putzraum>2</putzraum>
+    <gaestezimmer nummer="1">
+      <fernseher>False</fernseher>
+      <gastname>"Müller"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="2">
+      <fernseher>True</fernseher>
+      <gastname>"Phillipps"</gastname>
+    </gaestezimmer>
+  </etage>
+   <etage nummer="3">
+    <putzraum>3</putzraum>
+    <gaestezimmer nummer="1">
+      <fernseher>True</fernseher>
+      <gastname>"Hans"</gastname>
+    </gaestezimmer>
+  </etage>
+   <etage nummer="4">
+    <putzraum>4</putzraum>
+    <gaestezimmer nummer="1">
+      <fernseher>False</fernseher>
+      <gastname>"Otto"</gastname>
+    </gaestezimmer>
+    <gaestezimmer nummer="2">
+      <fernseher>False</fernseher>
+      <gastname>"Hendricks"</gastname>
+    </gaestezimmer>
+  </etage>
+</hotel>
