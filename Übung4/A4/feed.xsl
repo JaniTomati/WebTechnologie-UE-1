@@ -36,12 +36,13 @@
   </aside>
   <main>
   <xsl:for-each select="entry">
-  <section>
-    <h2><a href="{link/@href}"><xsl:value-of select="title"/></a></h2>
-    <p><xsl:value-of select="summary"/></p>
-    <p><b>Author: </b> <xsl:value-of select="author/name"/></p>
-    <p><b>Last updated: </b> <time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
-  </section>
+    <xsl:sort select="updated" order="descending"/>
+    <section>
+      <h2><a href="{link/@href}"><xsl:value-of select="title"/></a></h2>
+      <p><xsl:value-of select="summary"/></p>
+      <p><b>Author: </b> <xsl:value-of select="author/name"/></p>
+      <p><b>Last updated: </b> <time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
+    </section>
   </xsl:for-each>
   </main>
   </xsl:template>
