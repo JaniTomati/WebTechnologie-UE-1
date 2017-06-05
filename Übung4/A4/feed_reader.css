@@ -84,6 +84,11 @@ main > section {
   border-color: #e5e5e5;
 }
 
+section :last-child {
+  margin-top: -39px;
+  text-align: right;
+}
+
 footer {
   padding: 1px 10px 1px 10px;
   margin: 10px 20px 0px 20px;

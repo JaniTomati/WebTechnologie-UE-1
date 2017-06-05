@@ -32,14 +32,15 @@
     <h3><a href="{$hyperlink}"><xsl:value-of select="title"/></a></h3>
     <p><xsl:value-of select="author/name"/></p>
     <p><xsl:value-of select="subtitle"/></p>
-    <p>Last updated: <time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
+    <p><b>Last updated: </b><time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
   </aside>
   <main>
   <xsl:for-each select="entry">
   <section>
     <h2><a href="{link/@href}"><xsl:value-of select="title"/></a></h2>
     <p><xsl:value-of select="summary"/></p>
-    <p>Last updated: <time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
+    <p><b>Author: </b> <xsl:value-of select="author/name"/></p>
+    <p><b>Last updated: </b> <time date="2017-05-06"><xsl:value-of select="updated"/></time></p>
   </section>
   </xsl:for-each>
   </main>
