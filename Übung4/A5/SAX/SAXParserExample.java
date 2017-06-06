@@ -1,5 +1,14 @@
 //Web-Technologie 2017 - Jula (115167), Jana (115753), Christopher (114602), Josef (115850)
+<<<<<<< HEAD:Übung4/A5/SAX/SAXParserExample.java
 package SAX;
+=======
+<<<<<<< HEAD:Übung4/A5/SAXParserExample.java
+
+import SAX.SAXParserExampleHandler;
+=======
+package SAX;
+>>>>>>> parent of 51dc59e... Add A5. Small changes because the files did not compile. :octocat::Übung4/A5/SAX/SAXParserExample.java
+>>>>>>> f205b81... Did this work?:Übung4/A5/SAX/SAXParserExample.java
 import java.io.*;
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
