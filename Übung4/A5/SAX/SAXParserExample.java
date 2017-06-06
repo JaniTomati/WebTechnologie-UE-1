@@ -1,3 +1,4 @@
+//Web-Technologie 2017 - Jula (115167), Jana (115753), Christopher (114602), Josef (115850)
 package SAX;
 import java.io.*;
 import org.xml.sax.*;
@@ -21,8 +22,3 @@ public static void main(String[] args) throws SAXException, IOException{
 	}
 
 }
-
-
-//Wie viele page-Elemente sind im Wikipedia-Dump enthalten?
-//Welche Revisions-ID hat der Artikel mit Titel „Erfurt“ im Wikipedia-Dump?
-//Wie viele verschiedene angemeldete Autoren hat der Wikipedia-Dump? Hinweis: Verwenden Sie die Klasse java.util.HashSet.

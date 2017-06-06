@@ -1,3 +1,4 @@
+//Web-Technologie 2017 - Jula (115167), Jana (115753), Christopher (114602), Josef (115850)
 package SAX; 
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
@@ -9,9 +10,7 @@ public class SAXParserExampleHandler extends DefaultHandler{
 	String title, id;
 	String targetTitle, targetID;
 	int counter = 0;
-	// String old_id = "";
-	// String new_id = "";
-
+	
 	
 	public SAXParserExampleHandler(String title_, String id_){ 
 
@@ -52,16 +51,6 @@ public class SAXParserExampleHandler extends DefaultHandler{
 	
 	
 	public void endElement(String uri, String localName, String qName){
-
-		// int i = 0;
-		// String[] ids = new String[3];
-		// old_id= id;
-
-		// if(old_id != new_id){
-
-		// 	new_id = old_id;
-		// 	System.out.println("new_id: " + new_id);
-		// }
 
 
 		if (qName.equals("page")){
