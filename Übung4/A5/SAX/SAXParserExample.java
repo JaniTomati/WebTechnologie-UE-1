@@ -17,7 +17,7 @@ public class SAXParserExample{
 public static void main(String[] args) throws SAXException, IOException{ 
 	
 	SAXParserExample spe = new SAXParserExample();
-	DefaultHandler handler = new SAXParserExampleHandler("Erfurt", "1");
+	DefaultHandler handler = new SAXParserExampleHandler("Erfurt");
 	spe.load("./SAX/wiki_articles.xml", handler);
 	}
 

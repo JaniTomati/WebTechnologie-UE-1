@@ -8,14 +8,13 @@ public class SAXParserExampleHandler extends DefaultHandler{
     // Boolean state variables for modeling the states of the parser.
 	boolean parseTitle, parseID;
 	String title, id;
-	String targetTitle, targetID;
+	String targetTitle;
 	int counter = 0;
 	
 	
-	public SAXParserExampleHandler(String title_, String id_){ 
+	public SAXParserExampleHandler(String title_){ 
 
 		targetTitle = title_;
-		targetID = id_;
 	}
 
 	public void startElement(String uri, String localName, String qName, Attributes attributes) {
