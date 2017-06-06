@@ -1,5 +1,5 @@
 //Web-Technologie 2017 - Jula (115167), Jana (115753), Christopher (114602), Josef (115850)
-package SAX; 
+package SAX;
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
 
@@ -10,9 +10,9 @@ public class SAXParserExampleHandler extends DefaultHandler{
 	String title, id;
 	String targetTitle;
 	int counter = 0;
-	
-	
-	public SAXParserExampleHandler(String title_){ 
+
+
+	public SAXParserExampleHandler(String title_){
 
 		targetTitle = title_;
 	}
@@ -34,32 +34,32 @@ public class SAXParserExampleHandler extends DefaultHandler{
 
 
 	public void characters(char[] ch, int start, int length){
-	
+
 		if(parseTitle){
-	
+
 			title = new String(ch, start, length);
 			parseTitle = false;
-		} 
+		}
 
 		if(parseID){
-	
+
 			id = new String(ch, start, length);
 			parseID = false;
-		} 
+		}
 	}
-	
-	
+
+
 	public void endElement(String uri, String localName, String qName){
 
 
 		if (qName.equals("page")){
 
 			counter++;
-	    
+
 	   		if (title.equals(targetTitle)){
 
 	            System.out.println("[SAX] Title: " + targetTitle);
-	            System.out.println("[SAX] ID: " + id);	            
+	            System.out.println("[SAX] ID: " + id);
 	        }
 
 	    	title = null;
