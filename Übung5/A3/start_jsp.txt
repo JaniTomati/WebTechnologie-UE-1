@@ -1,0 +1,3 @@
+
+- put netspeak.jsp file in /apache-tomcat-9.0.0.M21/webapps/helloworld/ (if your folder is called helloworld)
+- open webpage http://localhost:8080/helloworld/netspeak.jsp
