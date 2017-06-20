@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:11:44:19 +0200] "GET /feed-reader/Feed HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:11:44:19 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:11:49:57 +0200] "GET /feed-reader/helloworld HTTP/1.1" 404 1103
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:11:51:55 +0200] "GET /helloworld/ServletHelloWorld HTTP/1.1" 200 101
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:12:15:24 +0200] "GET /helloworld/ServletHelloWorld HTTP/1.1" 200 101
+0:0:0:0:0:0:0:1 - - [15/Jun/2017:12:15:25 +0200] "GET /favicon.ico HTTP/1.1" 200 21630

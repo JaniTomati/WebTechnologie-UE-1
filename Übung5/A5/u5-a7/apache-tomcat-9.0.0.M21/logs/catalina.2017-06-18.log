@@ -1,0 +1,468 @@
+18-Jun-2017 21:05:37.564 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:05:37.580 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+18-Jun-2017 21:05:37.580 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Jun-2017 21:05:37.580 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2017 21:05:37.580 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.2.0-42-generic
+18-Jun-2017 21:05:37.581 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2017 21:05:37.581 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Jun-2017 21:05:37.581 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+18-Jun-2017 21:05:37.581 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2017 21:05:37.582 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:05:37.582 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:05:37.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/conf/logging.properties
+18-Jun-2017 21:05:37.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2017 21:05:37.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2017 21:05:37.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2017 21:05:37.584 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:05:37.584 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:05:37.584 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/temp
+18-Jun-2017 21:05:37.584 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib32:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Jun-2017 21:05:39.019 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:05:39.213 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:05:39.231 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:05:39.238 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:05:39.242 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4583 ms
+18-Jun-2017 21:05:39.613 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2017 21:05:39.618 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:05:40.102 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+18-Jun-2017 21:05:47.557 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [7,429] ms
+18-Jun-2017 21:05:47.560 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager]
+18-Jun-2017 21:05:47.677 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [117] ms
+18-Jun-2017 21:05:47.678 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT]
+18-Jun-2017 21:05:47.730 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [51] ms
+18-Jun-2017 21:05:47.730 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs]
+18-Jun-2017 21:05:47.767 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [35] ms
+18-Jun-2017 21:05:47.768 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples]
+18-Jun-2017 21:05:49.712 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [1,943] ms
+18-Jun-2017 21:05:49.713 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager]
+18-Jun-2017 21:05:49.846 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [132] ms
+18-Jun-2017 21:05:49.865 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 10622 ms
+18-Jun-2017 21:05:49.913 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+18-Jun-2017 21:05:49.917 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:05:49.918 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:05:49.918 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2017 21:05:50.332 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:05:50.333 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:05:50.333 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:05:50.334 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:06:41.904 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:06:41.910 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+18-Jun-2017 21:06:41.911 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Jun-2017 21:06:41.911 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2017 21:06:41.911 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.2.0-42-generic
+18-Jun-2017 21:06:41.912 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2017 21:06:41.912 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Jun-2017 21:06:41.912 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+18-Jun-2017 21:06:41.913 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2017 21:06:41.913 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:06:41.913 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:06:41.914 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/conf/logging.properties
+18-Jun-2017 21:06:41.914 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2017 21:06:41.914 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2017 21:06:41.915 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2017 21:06:41.915 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:06:41.915 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:06:41.915 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/temp
+18-Jun-2017 21:06:41.916 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib32:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Jun-2017 21:06:42.141 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:06:42.323 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:06:42.327 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:06:42.332 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:06:42.333 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1598 ms
+18-Jun-2017 21:06:42.441 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2017 21:06:42.442 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:06:42.528 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+18-Jun-2017 21:06:43.524 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [995] ms
+18-Jun-2017 21:06:43.526 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager]
+18-Jun-2017 21:06:43.602 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [75] ms
+18-Jun-2017 21:06:43.602 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT]
+18-Jun-2017 21:06:43.644 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [41] ms
+18-Jun-2017 21:06:43.644 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs]
+18-Jun-2017 21:06:43.688 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [44] ms
+18-Jun-2017 21:06:43.698 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples]
+18-Jun-2017 21:06:44.608 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [910] ms
+18-Jun-2017 21:06:44.609 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager]
+18-Jun-2017 21:06:44.688 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [79] ms
+18-Jun-2017 21:06:44.707 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 2373 ms
+18-Jun-2017 21:06:44.716 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+18-Jun-2017 21:06:44.719 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:06:44.720 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:06:44.721 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2017 21:06:44.814 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:06:44.815 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:06:44.817 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:06:44.818 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:08:25.781 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:08:25.785 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+18-Jun-2017 21:08:25.786 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Jun-2017 21:08:25.786 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2017 21:08:25.786 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.2.0-42-generic
+18-Jun-2017 21:08:25.787 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2017 21:08:25.787 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Jun-2017 21:08:25.787 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+18-Jun-2017 21:08:25.787 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2017 21:08:25.788 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:08:25.788 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:08:25.789 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/conf/logging.properties
+18-Jun-2017 21:08:25.789 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2017 21:08:25.789 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2017 21:08:25.790 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2017 21:08:25.790 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:08:25.790 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:08:25.790 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/temp
+18-Jun-2017 21:08:25.791 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib32:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Jun-2017 21:08:26.036 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:08:26.068 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:08:26.071 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:08:26.075 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:08:26.076 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1254 ms
+18-Jun-2017 21:08:26.126 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2017 21:08:26.126 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:08:26.178 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+18-Jun-2017 21:08:26.902 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [723] ms
+18-Jun-2017 21:08:26.906 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager]
+18-Jun-2017 21:08:26.978 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [71] ms
+18-Jun-2017 21:08:26.978 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT]
+18-Jun-2017 21:08:27.010 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [32] ms
+18-Jun-2017 21:08:27.011 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs]
+18-Jun-2017 21:08:27.047 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [36] ms
+18-Jun-2017 21:08:27.048 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples]
+18-Jun-2017 21:08:27.663 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [615] ms
+18-Jun-2017 21:08:27.664 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager]
+18-Jun-2017 21:08:27.741 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [76] ms
+18-Jun-2017 21:08:27.755 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1678 ms
+18-Jun-2017 21:08:27.758 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+18-Jun-2017 21:08:27.760 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:08:27.760 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:08:27.762 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2017 21:08:27.827 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:08:27.828 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:08:27.828 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:08:27.829 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:10:03.577 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:10:03.581 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+18-Jun-2017 21:10:03.582 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+18-Jun-2017 21:10:03.582 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Jun-2017 21:10:03.582 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.2.0-42-generic
+18-Jun-2017 21:10:03.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Jun-2017 21:10:03.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Jun-2017 21:10:03.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+18-Jun-2017 21:10:03.583 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Jun-2017 21:10:03.584 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:10:03.584 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:10:03.585 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/conf/logging.properties
+18-Jun-2017 21:10:03.585 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jun-2017 21:10:03.585 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Jun-2017 21:10:03.586 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Jun-2017 21:10:03.586 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:10:03.586 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21
+18-Jun-2017 21:10:03.586 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/temp
+18-Jun-2017 21:10:03.587 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib32:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Jun-2017 21:10:03.806 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:10:03.846 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:10:03.851 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:10:03.854 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+18-Jun-2017 21:10:03.856 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1224 ms
+18-Jun-2017 21:10:03.910 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jun-2017 21:10:03.911 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+18-Jun-2017 21:10:03.970 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+18-Jun-2017 21:10:04.656 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [685] ms
+18-Jun-2017 21:10:04.659 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager]
+18-Jun-2017 21:10:04.755 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [96] ms
+18-Jun-2017 21:10:04.756 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT]
+18-Jun-2017 21:10:04.796 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [39] ms
+18-Jun-2017 21:10:04.796 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs]
+18-Jun-2017 21:10:04.832 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [36] ms
+18-Jun-2017 21:10:04.833 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples]
+18-Jun-2017 21:10:05.558 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [725] ms
+18-Jun-2017 21:10:05.562 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager]
+18-Jun-2017 21:10:05.634 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/resources/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [72] ms
+18-Jun-2017 21:10:05.642 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1785 ms
+18-Jun-2017 21:10:05.658 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+18-Jun-2017 21:10:05.659 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:10:05.659 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:10:05.660 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jun-2017 21:10:05.732 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:10:05.778 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Jun-2017 21:10:05.779 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Jun-2017 21:10:05.779 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

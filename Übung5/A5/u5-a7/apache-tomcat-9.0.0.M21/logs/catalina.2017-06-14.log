@@ -1,0 +1,49 @@
+14-Jun-2017 11:50:43.787 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+14-Jun-2017 11:50:43.905 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+14-Jun-2017 11:50:43.905 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+14-Jun-2017 11:50:43.906 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Jun-2017 11:50:43.906 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.2.0-42-generic
+14-Jun-2017 11:50:43.906 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Jun-2017 11:50:43.907 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+14-Jun-2017 11:50:43.907 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13
+14-Jun-2017 11:50:43.907 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Jun-2017 11:50:43.907 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21
+14-Jun-2017 11:50:43.908 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21
+14-Jun-2017 11:50:43.908 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/conf/logging.properties
+14-Jun-2017 11:50:43.909 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jun-2017 11:50:43.909 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jun-2017 11:50:43.909 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Jun-2017 11:50:43.909 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21
+14-Jun-2017 11:50:43.910 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21
+14-Jun-2017 11:50:43.910 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/temp
+14-Jun-2017 11:50:43.910 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/lib32:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+14-Jun-2017 11:50:45.169 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Jun-2017 11:50:45.954 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Jun-2017 11:50:45.960 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Jun-2017 11:50:45.969 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Jun-2017 11:50:45.969 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6488 ms
+14-Jun-2017 11:50:46.382 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jun-2017 11:50:46.383 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+14-Jun-2017 11:50:46.593 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+14-Jun-2017 11:50:50.176 INFORMATION [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [466] milliseconds.
+14-Jun-2017 11:50:50.222 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [3,629] ms
+14-Jun-2017 11:50:50.223 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+14-Jun-2017 11:50:50.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [40] ms
+14-Jun-2017 11:50:50.264 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/docs]
+14-Jun-2017 11:50:50.303 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [39] ms
+14-Jun-2017 11:50:50.304 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/examples]
+14-Jun-2017 11:50:50.915 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [611] ms
+14-Jun-2017 11:50:50.916 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/manager]
+14-Jun-2017 11:50:50.985 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [68] ms
+14-Jun-2017 11:50:50.990 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jun-2017 11:50:51.055 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Jun-2017 11:50:51.065 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 5095 ms
+14-Jun-2017 11:53:41.044 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+14-Jun-2017 11:53:41.369 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/lo/Dropbox/Aktuelle Aufgaben Reloaded/Web-Technologie/Uebungen/LoJiCo/Beleg 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [325] ms
+14-Jun-2017 15:31:25.987 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Jun-2017 15:31:26.338 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Jun-2017 15:31:26.340 INFORMATION [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jun-2017 15:31:27.284 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Jun-2017 15:31:27.308 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Jun-2017 15:31:27.314 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Jun-2017 15:31:27.317 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

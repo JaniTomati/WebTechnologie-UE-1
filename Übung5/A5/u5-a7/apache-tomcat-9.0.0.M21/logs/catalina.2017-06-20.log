@@ -1,0 +1,707 @@
+20-Jun-2017 14:13:50.797 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:13:50.804 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:13:50.804 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:13:50.804 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:13:50.805 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:13:50.806 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:13:51.056 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:13:51.106 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:13:51.108 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:13:51.110 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:13:51.110 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 952 ms
+20-Jun-2017 14:13:51.140 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:13:51.141 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:13:51.165 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:13:51.567 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [401] ms
+20-Jun-2017 14:13:51.568 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:13:51.585 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [17] ms
+20-Jun-2017 14:13:51.586 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:13:51.867 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [282] ms
+20-Jun-2017 14:13:51.868 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:13:51.895 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [27] ms
+20-Jun-2017 14:13:51.896 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:13:51.921 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [25] ms
+20-Jun-2017 14:13:51.922 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:13:51.942 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [19] ms
+20-Jun-2017 14:13:51.942 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:13:51.960 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [18] ms
+20-Jun-2017 14:13:51.963 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:13:51.972 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:13:51.974 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 863 ms
+20-Jun-2017 14:23:22.291 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:23:22.328 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [37] ms
+20-Jun-2017 14:26:12.408 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/feed-reader]
+20-Jun-2017 14:26:12.425 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:26:12.497 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [72] ms
+20-Jun-2017 14:30:23.134 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+20-Jun-2017 14:30:23.136 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:23.643 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/helloworld]
+20-Jun-2017 14:30:23.645 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [helloworld]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:24.149 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+20-Jun-2017 14:30:24.153 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+ java.lang.IllegalStateException: java.io.FileNotFoundException: /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (No such file or directory)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:260)
+	at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+	at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+	at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1057)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1567)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Übungsblätter/Übung 5/apache-tomcat-9.0.0.M21/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:103)
+	at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+	at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:93)
+	... 24 more
+
+20-Jun-2017 14:30:24.658 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/netspeak]
+20-Jun-2017 14:30:24.660 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [netspeak]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:25.164 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+20-Jun-2017 14:30:25.166 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:25.668 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/feed-reader]
+20-Jun-2017 14:30:25.669 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [feed-reader]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:26.171 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+20-Jun-2017 14:30:26.173 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:30:26.676 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+20-Jun-2017 14:30:26.677 WARNUNG [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+ java.lang.NullPointerException
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1569)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1515)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1467)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:444)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5455)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:843)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1400)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1326)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1184)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1380)
+	at java.lang.Thread.run(Thread.java:745)
+
+20-Jun-2017 14:31:09.368 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:31:09.371 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:31:09.371 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:31:09.372 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:31:09.373 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:31:09.373 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:31:09.373 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:31:09.374 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:31:09.374 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:31:09.374 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:31:09.374 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:31:09.374 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:31:09.557 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:31:09.600 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+20-Jun-2017 14:31:09.602 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:31:09.606 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+20-Jun-2017 14:31:09.607 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 876 ms
+20-Jun-2017 14:31:09.640 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:31:09.641 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:31:09.659 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:31:10.122 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [462] ms
+20-Jun-2017 14:31:10.123 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:31:10.163 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [41] ms
+20-Jun-2017 14:31:10.164 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:31:10.191 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [27] ms
+20-Jun-2017 14:31:10.194 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:31:10.785 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [593] ms
+20-Jun-2017 14:31:10.786 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:31:10.828 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [42] ms
+20-Jun-2017 14:31:10.828 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:31:10.863 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [35] ms
+20-Jun-2017 14:31:10.864 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:31:10.896 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [31] ms
+20-Jun-2017 14:31:10.896 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:31:10.929 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [33] ms
+20-Jun-2017 14:31:10.939 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1331 ms
+20-Jun-2017 14:31:10.944 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+20-Jun-2017 14:31:10.945 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:31:10.946 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:31:10.946 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:31:11.005 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:31:11.005 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:31:11.005 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:31:11.006 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:33:51.795 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:33:51.797 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:33:51.798 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:33:51.799 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:33:51.799 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:33:51.799 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:33:51.800 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:33:51.928 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:33:51.952 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+20-Jun-2017 14:33:51.953 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:33:51.955 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:206)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:950)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:573)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+20-Jun-2017 14:33:51.956 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 604 ms
+20-Jun-2017 14:33:51.984 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:33:51.984 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:33:52.006 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:33:52.533 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [527] ms
+20-Jun-2017 14:33:52.535 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:33:52.584 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [49] ms
+20-Jun-2017 14:33:52.585 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:33:52.616 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [31] ms
+20-Jun-2017 14:33:52.617 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:33:52.901 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [284] ms
+20-Jun-2017 14:33:52.902 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:33:52.928 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [26] ms
+20-Jun-2017 14:33:52.929 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:33:52.954 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [24] ms
+20-Jun-2017 14:33:52.954 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:33:52.970 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [16] ms
+20-Jun-2017 14:33:52.972 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:33:52.988 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [17] ms
+20-Jun-2017 14:33:52.992 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1035 ms
+20-Jun-2017 14:33:52.996 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+20-Jun-2017 14:33:52.997 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:33:52.997 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:33:52.997 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:33:53.024 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:33:53.024 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:33:53.025 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:33:53.025 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:37:59.828 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:37:59.834 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:37:59.889 INFORMATION [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:37:59.890 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:37:59.894 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:37:59.896 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:37:59.897 INFORMATION [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:39:16.949 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:39:16.957 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:39:16.957 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:39:16.958 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:39:16.959 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:39:17.201 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:39:17.244 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:39:17.246 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:39:17.248 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:39:17.248 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1024 ms
+20-Jun-2017 14:39:17.277 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:39:17.277 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:39:17.305 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:39:17.729 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [423] ms
+20-Jun-2017 14:39:17.730 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:39:17.757 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [26] ms
+20-Jun-2017 14:39:17.758 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:39:17.775 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [18] ms
+20-Jun-2017 14:39:17.776 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:39:18.190 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [414] ms
+20-Jun-2017 14:39:18.190 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:39:18.217 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [27] ms
+20-Jun-2017 14:39:18.217 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:39:18.238 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [20] ms
+20-Jun-2017 14:39:18.238 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:39:18.251 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [13] ms
+20-Jun-2017 14:39:18.252 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:39:18.268 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester 17/Web-Technologie/Uebungsblaetter/Uebung 5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [15] ms
+20-Jun-2017 14:39:18.271 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:39:18.280 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:39:18.282 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1033 ms
+20-Jun-2017 14:40:47.287 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jun-2017 14:40:47.288 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:40:47.345 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:40:47.399 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:40:47.450 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:40:47.455 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:40:47.456 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:40:47.457 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:41:42.719 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:41:42.725 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:41:42.725 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:41:42.726 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:41:42.727 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:41:42.727 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:41:42.728 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:41:42.728 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:41:42.730 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:41:42.733 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:41:42.735 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:41:42.737 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:41:42.738 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:41:42.738 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:41:42.739 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:41:42.739 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:41:42.739 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:41:42.739 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:41:42.740 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:41:43.101 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:41:43.142 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:41:43.145 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:41:43.147 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:41:43.147 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1514 ms
+20-Jun-2017 14:41:43.177 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:41:43.178 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:41:43.203 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:41:43.559 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [354] ms
+20-Jun-2017 14:41:43.560 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:41:43.595 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [34] ms
+20-Jun-2017 14:41:43.597 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:41:43.620 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [23] ms
+20-Jun-2017 14:41:43.620 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:41:44.051 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [431] ms
+20-Jun-2017 14:41:44.052 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:41:44.089 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [37] ms
+20-Jun-2017 14:41:44.090 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:41:44.120 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [31] ms
+20-Jun-2017 14:41:44.121 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:41:44.152 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [32] ms
+20-Jun-2017 14:41:44.152 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:41:44.173 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [21] ms
+20-Jun-2017 14:41:44.178 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:41:44.194 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:41:44.197 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1049 ms
+20-Jun-2017 14:42:34.004 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/feed-reader]
+20-Jun-2017 14:42:34.019 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:42:34.188 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [168] ms
+20-Jun-2017 14:44:04.045 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jun-2017 14:44:04.046 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:44:04.104 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:44:04.160 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:44:04.206 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:44:04.212 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:44:04.213 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:44:04.214 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:44:18.287 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:44:18.289 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 14:44:18.289 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:44:18.290 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:44:18.291 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 14:44:18.291 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 14:44:18.292 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 14:44:18.506 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:44:18.564 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:44:18.567 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:44:18.569 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 14:44:18.572 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 714 ms
+20-Jun-2017 14:44:18.599 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 14:44:18.599 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 14:44:18.626 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 14:44:19.185 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [558] ms
+20-Jun-2017 14:44:19.186 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 14:44:19.223 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [36] ms
+20-Jun-2017 14:44:19.224 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 14:44:19.245 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [21] ms
+20-Jun-2017 14:44:19.246 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 14:44:19.565 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [319] ms
+20-Jun-2017 14:44:19.566 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 14:44:19.587 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [21] ms
+20-Jun-2017 14:44:19.587 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 14:44:19.610 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [23] ms
+20-Jun-2017 14:44:19.611 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 14:44:19.629 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [19] ms
+20-Jun-2017 14:44:19.630 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 14:44:19.715 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [85] ms
+20-Jun-2017 14:44:19.722 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:44:19.741 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:44:19.744 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1171 ms
+20-Jun-2017 14:48:45.330 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jun-2017 14:48:45.330 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:48:45.387 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:48:45.439 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 14:48:45.487 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:48:45.490 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 14:48:45.493 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 14:48:45.494 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 22:06:36.811 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M21
+20-Jun-2017 22:06:36.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2017 22:42:36 UTC
+20-Jun-2017 22:06:36.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Jun-2017 22:06:36.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+20-Jun-2017 22:06:36.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.12.5
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21
+20-Jun-2017 22:06:36.816 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21
+20-Jun-2017 22:06:36.817 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/conf/logging.properties
+20-Jun-2017 22:06:36.818 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Jun-2017 22:06:36.818 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Jun-2017 22:06:36.818 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Jun-2017 22:06:36.819 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21
+20-Jun-2017 22:06:36.819 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21
+20-Jun-2017 22:06:36.820 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/temp
+20-Jun-2017 22:06:36.821 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/Josef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+20-Jun-2017 22:06:37.174 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 22:06:37.247 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 22:06:37.250 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 22:06:37.253 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Jun-2017 22:06:37.254 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1284 ms
+20-Jun-2017 22:06:37.317 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Jun-2017 22:06:37.317 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M21
+20-Jun-2017 22:06:37.349 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 22:06:37.846 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [497] ms
+20-Jun-2017 22:06:37.846 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/helloworld.war]
+20-Jun-2017 22:06:37.869 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/helloworld.war] has finished in [23] ms
+20-Jun-2017 22:06:37.870 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/docs]
+20-Jun-2017 22:06:37.884 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/docs] has finished in [14] ms
+20-Jun-2017 22:06:37.884 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/examples]
+20-Jun-2017 22:06:38.192 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/examples] has finished in [308] ms
+20-Jun-2017 22:06:38.193 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/host-manager]
+20-Jun-2017 22:06:38.217 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/host-manager] has finished in [24] ms
+20-Jun-2017 22:06:38.217 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/manager]
+20-Jun-2017 22:06:38.240 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/manager] has finished in [23] ms
+20-Jun-2017 22:06:38.240 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/netspeak]
+20-Jun-2017 22:06:38.253 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/netspeak] has finished in [13] ms
+20-Jun-2017 22:06:38.253 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/ROOT]
+20-Jun-2017 22:06:38.266 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/ROOT] has finished in [13] ms
+20-Jun-2017 22:06:38.270 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 22:06:38.282 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 22:06:38.283 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 1029 ms
+20-Jun-2017 22:06:48.274 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/feed-reader]
+20-Jun-2017 22:06:48.289 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/feed-reader.war]
+20-Jun-2017 22:06:48.382 INFORMATION [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/Josef/Dropbox/Sommersemester-17/Web-Technologie/Uebungsblaetter/Uebung-5/u5-a7/apache-tomcat-9.0.0.M21/webapps/feed-reader.war] has finished in [93] ms
+20-Jun-2017 22:07:35.291 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Jun-2017 22:07:35.291 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 22:07:35.348 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 22:07:35.404 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Jun-2017 22:07:35.470 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 22:07:35.474 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Jun-2017 22:07:35.475 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Jun-2017 22:07:35.476 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

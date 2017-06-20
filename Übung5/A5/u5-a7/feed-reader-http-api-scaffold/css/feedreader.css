@@ -1,0 +1,136 @@
+/*
+* BASE
+*/
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+main {
+    /* IE11 misses `display: block` in its user agent styles */
+    display: block;
+}
+
+body {
+    /* Shorthand syntax for setting font-size, line-height and font-family */
+    font: 1.25em/1.5 Georgia, "Times New Roman", Times, serif;
+    color: #222;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+
+a {
+    color: #3b5bdb;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #0c8599;
+}
+
+time,
+.author {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.meta-information {
+    color: #888;
+    font-size: smaller;
+}
+
+
+
+/*
+* LAYOUT
+*/
+.wrapper {
+    /*
+    For block elements that don’t take up the whole space its parent element
+    offers (e.g. when the viewport of the browser is wider than 1000px in our
+    case), setting `margin-right: 0;` and `margin-left: auto;` will distribute
+    the margin evenly on both sides thus effectively centering the element in
+    its parent.
+    */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    .page-content {
+        /*
+        Flexbox is used to put the children of .wrapper elements into a
+        horizontal row.
+        */
+        display: flex;
+    }
+
+    /*
+    Setting the values for the flex property like this distributes the space in
+    the flex container in a 1 to 3 ratio. In this case, it’s the same as setting
+    the width property to 25% and 75% respectively.
+    */
+    aside {
+        flex: 1;
+    }
+
+    main {
+        flex: 3;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        /* Limit the descendants to a width of 1000 pixels. */
+        max-width: 1000px;
+    }
+}
+
+.site-head,
+.site-foot,
+aside,
+main {
+    padding: 1rem;
+}
+
+/*
+We only want some vertical space between articles but not after it. The part
+`:not(:last-of-type)` is used to only select elements that are not the last of
+their type among all siblings of a parent element. In the following example
+hierarchy, the selector will only be applied to the entries marked with
+the asterisk (i.e. `*`).
+
+article:not(:last-of-type)
+Reads as: article elements that are not the last of their type.
+
+. div (parent)
+├── article ✓
+├── article ✓
+├── article ✗ → is the last element of the type article in this hierarchy)
+└── div     ✗ → not of type article
+*/
+.post:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.site-title {
+    /*
+    Utilize Flexbox to put the children of the currently selected element in a
+    horizontal row and center them vertically with `align-items`.
+    */
+    display: flex;
+    align-items: center;
+}
+
+.site-title > img {
+    margin-right: 1rem;
+}
