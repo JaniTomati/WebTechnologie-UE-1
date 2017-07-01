@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example page with some dummy content.</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="jquery-dom-manipulation.js"></script>
+        <style>
+            .selected span {
+              background-color:grey;
+            }
+
+            button {
+              width:150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3> Books To Read </h3>
+        <ol id="to_read_books">
+            <li>
+                <span>Java ist auch ein Insel</span>
+            </li>
+            <li>
+                <span>Clean Code</span>
+            </li>
+        </ol>
+
+        <h3> Read Books</h3>
+        <ol id="read_books">
+            <li>
+                <span>Faust 1</span>
+            </li>
+            <li>
+                <span>Faust 2</span>
+            </li>
+        </ol>
+
+        <div id="manipulation_controls">
+            <button id="delete_all"> Delete </button>
+            <button id="make_read"> Make Read </button>
+            <button id="make_to_read"> Make To Read </button>
+        </div>
+    </body>
+</html>
