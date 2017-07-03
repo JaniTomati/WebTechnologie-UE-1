@@ -1,4 +1,4 @@
-
+// Jana (115753), Christopher (114602), Josef (115850), Jula (115167)
 $(document).ready(function(){
     $("li").mousedown(function(){
         $(this).toggleClass("selected");

@@ -1,3 +1,4 @@
+// Jana (115753), Christopher (114602), Josef (115850), Jula (115167)
 function push() {
 
 	var li = document.createElement("li");
